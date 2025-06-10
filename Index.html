@@ -3,9 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HOME</title>
+    <style>
+        body{
+            background-color: brown;
+        }
+        h1{
+            font-size: 25px;
+            color: wheat;
+            text-align: center; 
+        }
+        h2{
+            color: silver;
+        }
+        .p01{
+            color: silver;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .p02{
+            color: whitesmoke;
+            text-align: justify;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .img01{
+            width: 500px;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto;
+        }
+        .table01{
+            border-color: aqua;
+            border: 1px solid red;
+            width: 50%;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Pagina de equipos</h1>
+    <div>
+    <u>
+        <li id="Home"><a href="#Marcador01">HOME</a></li>
+        <li id="tarjeta"><a href="#Marcador02">contacto</a></li>
+        <li id="Precios"><a href="#Marcador03">Precios</a></li>
+        <li id="Articulos"><a href="#Marcador04">Articulos</a></li>
+    </u>
+    </div>
+    <div>
+        <h2 id="Marcador01"><a href="#Home">HOME</a></h2>
+        <p class="p01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, minus quo facilis provident assumenda, sint error vitae, odit vero non impedit animi est placeat. Dolores odit autem laborum ipsam tenetur.</p>
+        <br>
+        <p class="p02">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda neque totam placeat? Rem a consequuntur corrupti qui, quis, molestias voluptatem et nulla repudiandae provident nemo eaque quia non odio quo.</p>
+        <img class="img01" src="/Imagenes/images.jpg" alt="">
+    </div>
+    <div>
+        <h2 id="Marcador02"><a href="#tarjeta">TARJETA GRAFICA</a></h2>
+        <p class="p02">Una tarjeta gráfica GTX es un componente de computadora diseñado para procesar gráficos y visualización, comúnmente utilizado en juegos y aplicaciones que requieren un alto rendimiento visual. GTX es una abreviatura de "Giga Texel Shader eXtreme" y, aunque el nombre no es específico, se asocia a un alto rendimiento en gráficos. </p>
+        <img class="img01" src="/Imagenes/images (1).jpg" alt="xd" title="Tarjeta Grafica" width="500" height="300">
+    </div>
+    <div>
+        <h2 id="Marcador03"><a href="#Precios">Precios</a></h2>
+        <table margin="auto" border="1" width="50%">
+            <caption>Lista de Precios</caption>
+            <tr>
+                <th>item</th>
+                <th>Detalle</th>
+                <th>Valor unitario</th>
+                <th>Total</th>
+            </tr> 
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Grafica</td>
+                    <td>1.200.000</td>
+                    <td>1.200.000</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>procesador</td>
+                    <td>300.000</td>
+                    <td>300.000</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Fuente de poder</td>
+                    <td>350.000</td>
+                    <td>350.000</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Memoria RAM</td>
+                    <td>400.000</td>
+                    <td>400.000</td>
+                </tr>
+                <tr>
+                    <td colspan="3" cellspacing="0" cellpadding="10">Total</td>
+                    <td>2.250.000</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div>
+      <a href=""></a><h2 id="Marcador04"><a href="#Articulos">Articulos</a></h2>
+        <table class="table01"   width="50%" cellspacing="0" cellpadding="10">
+            <caption>Imagenes de articulos</caption>
+            <thead>
+                <tr>
+                    <th>Articulo</th>
+                    <th>Imagen</th>
+                    <th>Descripcion</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Tarjeta Grafica</td>
+                <td img align="center"><img src="/Imagenes/images (1).jpg" alt=""></td>
+                <td>Tarjeta gráfica 1060 Founder Edition 6gb GDDR5</td>
+            </tr>
+             <tr>
+                <td>Procesador</td>
+                <td Img align="center"><img src="/Imagenes/descarga (1).jpg" alt=""></td>
+                <td>Procesador Ryzen 5 7800x3D</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
